@@ -21,8 +21,48 @@ h1 {
     font-size: 60px;
 
 }
-h2 {
-    margin-top:50px;
-    text-align: center;
-    font-size: 50px;
+nav ul {
+    font-size: 28px;
+}
+main {
+    font-size: 28px;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+fieldset legend {
+    margin:auto;
+    padding-bottom: 20px;;
+
+}
+select#items {
+    height:40px;
+    font-size: 14pt;;
+}
+input#quantity {
+    height:40px;
+    width:40px;
+    font-size: 20pt;;
+}
+footer {
+    display:flex;
+    flex-direction: row;
+    height:120px;
+    border-top:darkgray double 10px;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+ #cartContents{
+     padding-top:20px;
+     text-align: center;
+
+}
+#cartContents ul li {
+    padding: 10px 0;
+}
+.cartContents input {
+    display:flex;
+    margin:auto;
 }

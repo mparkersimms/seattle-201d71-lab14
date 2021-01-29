@@ -26,6 +26,7 @@ function clearCart() {}
 // TODO: Fill in the <tr>'s under the <tbody> for each item in the cart
 var removeButton;
 var tableBodyElement = table.getElementsByTagName('TBODY')[0];
+console.log(Product.allProducts);
 function showCart() {
 
   // TODO: Find the table body
@@ -43,9 +44,17 @@ function showCart() {
     tableRow.appendChild(removeButton);
     tableRow.appendChild(td2);
     tableRow.appendChild(td3);
-    
     td2.textContent = cart.items[i].quantity;
     td3.textContent = cart.items[i].product;
+    for (var j = 0; j < Product.allProducts.length; j++){
+      if (cart.items[i].product === Product.allProducts.name){
+        // var td4 = document.createElement('td');
+        // td4.textContent = "test";
+        // var imgElement = document.createElement('img');
+        // imgElement.src = Product.allproducts[j].filePath;
+        // tableRow.appendChild(imgElement);
+      }
+    }
     
 
   }
