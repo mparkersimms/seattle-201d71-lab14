@@ -66,3 +66,35 @@ footer {
     display:flex;
     margin:auto;
 }
+#cart-container.card {
+    display:flex;
+}
+table {
+    display:block;
+    margin:auto;
+}
+thead {
+    width:100%;
+    /* text-align: center; */
+    margin:auto;
+}
+thead tr {
+    width:100%;
+}
+thead th {
+    padding:0 30px;
+}
+img {
+    width:100px;
+
+}
+tbody tr {
+    justify-content: center;
+    align-items: center;
+}
+tbody button {
+    margin:auto;
+}
+td {
+    padding:auto;
+}
